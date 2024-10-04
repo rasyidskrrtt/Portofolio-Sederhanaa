@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    background-color: #AE1C28;
+    padding: 10px;
+}
+
+.title .me {
+    background-color: #FFFFFF; 
+    width: 100%;               
+    padding: 10px 0;            
+    border-radius: 100%;    
+}
+
+h1{
+    color: white;
+}
+
+.title h3{
+    color: white;
+
+}
+
+nav {
+    background-color: #21468B;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+    
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FF8300;
+    transition: color 0.3s ease-in-out;
+}
+
+main{
+    padding: 30px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#content {
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+h2, h3{
+    color: #FF8300;
+}
+
+aside{
+    flex: 1;
+    text-align: center;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #21468B;
+}
+
+.imgsize {
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #21468B;
+    color: #FF8300;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 10px;
+    color: white; 
+    background-color: #21468B;
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+}
